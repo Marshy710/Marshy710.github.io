@@ -3,21 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Dev 101</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="Assets/styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1 class="class-1">Dyn Mark Encabo</h1>
-    <hr>
- <p>I have 2 big noisy dogs</p>
- <div>This is a <br>container</div>
-
-<div class="container"> 
-<div class="box-1">box 1</div>
-<div class="box-2">box 2</div>
-<div class="box-3">box 3</div>
-</div>
-
-<script src="Assets/Scripts/main.js"></script>
+    <header class="header">
+        <a href="#about" class="logo">Dyn Mark <span>Encabo</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#about" class="active">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">Hi! I'm <span>Dynz</span>
+            </h2>
+            <h3 class="text-animation">
+                I'm a <span></span>
+                </h3>
+            <p>Hello! I am a seasoned IT professional specializing in data analysis, programming, and network administration. Simultaneously, I am a passionate and results-driven professional teacher. My approach combines hands-on experience in IT with a commitment to fostering engaging and collaborative learning environments. I thrive on empowering others with both technical expertise and a comprehensive understanding of the subject matter.</p>
+            
+            <a href="#" class="btn" >Facebook</a>
+            <a href="#" class="btn2" >linkedin</a>
+        </div>
+        <div class="about-img">
+            <img src="Assets/images/profile.png" alt="">
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="projects-content"> 
+            <h1>My <span>Projects</span></h1>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-description">
+                    <h2><span>Task Manager Tool</span></h2>
+                    <p>I created this project using bootstrap 5 and PHP OOP. This will help the user to organize task/work. The user can save multiple task under "Pending Task" and mark it either complete or delete a certain task. All the completed task can be view under "Completed Task" and the user have the option to delete it. </p>
+                    <br>
+                    <button>View Project</button>
+                </div>
+                <div class="card-image">
+                    <img src="Assets/images/simple_tdl_app.PNG" alt="Project Image">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-description">
+                    <h2><span>WiFi Hotspot Portal</span></h2>
+                    <p>I created and designed this WiFi hotspot portal project to capture, authenticate, and control the bandwidth of each user on a company's WiFi network. The same can also be use to control internet access for public places like hotels, restaurant, shopping centers, airports ,corporate , and the like.</p>
+                    <br>
+                    <button>View Project</button>
+                </div>
+                <div class="card-image">
+                    <img src="Assets/images/WifiHotspot Portal -final.PNG" alt="Project Image">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-description">
+                    <h2><span>Salon Management System</span></h2>
+                    <p>This is my first project created using Visual Basic 6.0. The system can manage both the sales and services of the salon. It can also manage all the employees or beauticians, including their salaries. Lastly, the system can generate reports for sales, services, and beautician records, either weekly, monthly, or yearly.</p>
+                    <br>
+                    <button>View Project</button>
+                </div>
+                <div class="card-image">
+                    <img src="Assets/images/Salon De Grab Management System.PNG" alt="Project Image">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <p>Name:</p>
+                <input type="text">
+                <p>Email:</p>
+                <input type="email">
+                <p>Message:</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+                <input type="submit" value="Send" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social-icons">
+            <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+            <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+            <a href=""><i class='bx bxl-facebook-square' ></i></a>
+             <a href=""><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p class="copyright">© Dyn Mark Encabo | All Rights Reserved 2024</p>
+    </footer>
+    <script src="Assets/scripts/script.js"></script>   
 </body>
 </html>
